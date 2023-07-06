@@ -1,0 +1,11 @@
+This is the documentation for a dash-like Slingshot ability. You have to have your own character controller for this to work.
+
+1. First drag the Slingshot script onto your Player character and drag the Player.
+3. Next, create an empty gameObject and add it as a child of the camera that is on your Player.
+4. Call this gameObject SlingTarget and move it away from the player as far as want. (This is how far the slingshot ability
+will take you.
+5. In the inspector select the curve, once selected choose the 3rd avaiable curve at the bottom.
+6. Set the Speed to 1 and the Cooldown to 5, and also drag in your Player into the controller slot.
+
+The slingshot ability should work now whenever you press the Q button. You can also change the speed and the cooldown
+as you see fit.
